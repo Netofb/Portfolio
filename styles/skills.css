@@ -1,0 +1,33 @@
+.skills{
+  display: grid;
+  margin: 0 auto;
+  justify-content: center;
+  max-width: 1200px;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  row-gap: 3rem;
+  column-gap: 2rem;
+}
+.skills img{
+ max-width: 150px;
+ border-radius: 4rem 0 4rem 0;
+  
+}
+.skills img:hover{
+  scale: 1.1;
+  box-shadow: 0 10px 10px 0 #67dd0a;
+}
+@media (max-width: 800px){
+  .skills{
+  grid-template-columns: 1fr 1fr 1fr ;
+  gap: 1rem;
+  margin: 1rem;
+}
+  .skills img{
+    max-width: 100px;
+    border-radius: 2.5rem 0 2.5rem 0;
+  
+  }
+  }
+
+
+

@@ -1,0 +1,52 @@
+body {
+  background-color: #151618;
+  margin: 0;
+  font-family: "Fira sans", Arial, sans-serif;
+  
+}
+/* Azul #4731ec preto #151618 cinza-escuro #1f2024 cinza-claro #979aa1 branco #fbfaf5 verde #67dd0a roxo #723ae9  */
+
+html{
+  scroll-behavior: smooth;
+  
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  margin: 0;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+img {
+  max-width: 100%;
+  display: block;
+}
+.subtitulo {
+  font-size: 8rem;
+  line-height: 1;
+  text-transform: uppercase;
+  word-break: break-all;
+  max-width: 4ch;
+}
+@media(max-width:800px){
+  .subtitulo {
+    font-size: 3rem;
+    text-transform: capitalize;
+    max-width: initial !important;
+  }
+}
+.title{
+  font-family: "Fira sans", Arial, sans-serif;
+  text-align: center;
+  margin: 14rem auto 9rem auto;
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #fbfaf5;
+}

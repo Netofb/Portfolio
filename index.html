@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles/style.css" />
+  <link rel="shortcut icon" href="./img/LOGO.png" type="image/x-icon">
+ 
+  <title>Portfolio</title>
+</head>
+
+
+<body>
+  
+  <header class="header">
+    <a href="#" class="logo"><h1>Port<span>fólio</span></h1></a>
+    
+
+    <nav id="nav" class="nav">
+      <button id="btn-mobile">Menu</button>
+      <span id="hamburger"></span>
+      <ul class="header-menu" id="menu">
+        <li><a href="#projects">Projetos</a></li>
+        <li><a href="#skills">Habilidades</a></li>
+        <li><a href="#contact">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="introduction" >
+    
+    <div class="introduction-texto">
+      <h1 class="line type-animation">
+        Desenvolvedor
+        Front End &<br>  
+        UX/UI Designer
+        <p>Localizado em Recife/Pe 🦦</p>
+        <a class="btn-introduction" href="./curriculo.pdf" download="curriculo"><span class="text">Currículo</span> </a>
+
+      </h1>
+      <img class="hacker" src="./img/hacker.gif" alt="">
+    </div>
+    <div id="particles-js"></div>
+  </main>
+
+ <section data-anime="left">
+  <div aria-label="projects" id="projects" class="title" data-anime="left">Projetos</div>
+<div class="container" data-anime="left">
+  <div class="card">
+		<figure class="card__thumb">
+			<img src="./img/PROJETO NU.png" alt="" class="card__image">
+			<figcaption class="card__caption">
+				<h2 class="card__title">Utilizando HTML, CSS e BOOTSTRAP</h2>
+				<p class="card__snippet">Projeto feito para o instituto Nubank/Descomplica com fins educacionais</p>
+				<a href="https://netofb.github.io/projeto-nu/" class="card__button" target="_blank">Acessar Projeto</a>
+        <a href="https://github.com/Netofb/projeto-nu" class="card__button" target="_blank">Acessar Repositório</a>
+			</figcaption>
+		</figure>
+	</div>
+	<div class="card">
+		<figure class="card__thumb">
+			<img src="./img/ROCKET.png" alt="Picture by Kyle Cottrell" class="card__image">
+			<figcaption class="card__caption">
+				<h2 class="card__title">Utilizando HTML, CSS e JS</h2>
+				<p class="card__snippet">Projeto feito usando o template da RocketSeat</p>
+				<a href="https://netofb.github.io/Rocket-NFT/" class="card__button" target="_blank">Acessar Projeto</a>
+        <a href="https://github.com/Netofb/Rocket-NFT" class="card__button" target="_blank">Acessar Repositório</a>
+			</figcaption>
+		</figure>
+	</div>
+  </section>
+
+
+
+
+
+  <section id="skills" data-anime="left">
+    <h1 class="title">Habilidades</h1>
+<div class="skills" data-anime="left">
+  <img src="./img/HTML.png" alt="">
+  <img src="./img/CSS.png" alt="">
+  <img src="./img/JAVASCRIPT.png" alt="">
+  <img src="./img/BOOTSTRAP.png" alt="">
+  <img src="./img/REACT.png" alt="">
+  <img src="./img/SASS.png" alt="">
+  <img src="./img/GIT.png" alt="">
+  <img src="./img/COREL.png" alt="">
+</div>
+  </section>
+
+
+  <section class="contact" id="contact" aria-label="contact" data-anime="left">
+   <h1 class="title">Contato</h1>
+   <ul data-anime="left">
+    <li><a href="mailto:fabi.neto.fb@gmail.com" target="_blank"><img src="./img/EMAIL.png" alt="Logo Email">E-mail</a>fabi.neto.fb@gmail.com</li>
+    <li><a href="tel:+5581999248033" target="_blank"><img src="./img/TELEFONE.png" alt="Logo Telefone">Telefone</a>(81)9.9924-8033</li>
+    <li><a href="https://www.linkedin.com/in/f%C3%A1bio-barros-lima/" target="_blank"><img src="./img/LINKEDIN.png" alt="Logo Linkedin">Linkedin</a>fábio-barros-lima</li>
+    <li><a href="https://github.com/Netofb/" target="_blank"><img src="./img/GITHUB.png" alt="Logo GitHub">github</a>Netofb</li>
+   </ul>
+  </section>
+  
+  <script src="./script.js"></script>
+  <script src="./particles.js"></script>
+  <script src="./app.js"></script>
+  <script src="./scroll.js"></script>
+</body>
+
+</html>
