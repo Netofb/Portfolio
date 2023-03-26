@@ -1,16 +1,15 @@
-.introduction{
+.introduction {
   max-width: 1500px;
-  margin: 0 ;
+  margin: 0;
   display: flex;
   height: 100vh;
   background-color: #151618;
 }
-.introduction-texto{
+.introduction-texto {
   margin: 4rem 0 0 0;
   display: flex;
-  
 }
-.line{
+.line {
   border-right: 2px solid #525252;
   white-space: nowrap;
   overflow: hidden;
@@ -19,105 +18,99 @@
   color: #67dd0a;
   margin: 12rem 0 0 15rem;
 }
-.type-animation{
+.type-animation {
   animation: cursor 500ms steps(28) infinite normal,
-  type 4s steps(28) 1s normal both;
+    type 4s steps(28) 1s normal both;
 }
-@keyframes type{
-  from{
+@keyframes type {
+  from {
     width: 0;
   }
-  to{
-width: 22em;
+  to {
+    width: 22em;
   }
 }
-@keyframes cursor{
-  from{
+@keyframes cursor {
+  from {
     border-right-color: #525252;
   }
-  to{
+  to {
     border-right-color: transparent;
   }
 }
 
-.introduction p{
+.introduction p {
   font-size: 1.5rem;
   color: #fff;
 }
-@media (max-width:1000px){
-.introduction h1{
-  font-size: 3rem;
+@media (max-width: 1000px) {
+  .introduction h1 {
+    font-size: 3rem;
+  }
 }
-}
-@media (max-width:800px){
-  .introduction{
+@media (max-width: 800px) {
+  .introduction {
     grid-template-columns: 1fr 1fr;
     gap: 40px;
   }
- 
-  .introduction h1::before{
+
+  .introduction h1::before {
     width: 30px;
     height: 10px;
     top: 10px;
   }
 }
-@media (max-width:600px){
-  .introduction{
+@media (max-width: 600px) {
+  .introduction {
     grid-template-columns: 1fr;
     align-items: center;
     justify-content: center;
     margin: 0 auto;
     height: 50vh;
   }
-  .line{
+  .line {
     margin: 0;
   }
-  .introduction img{
+  .introduction img {
     display: none;
   }
-  .introduction-texto{
+  .introduction-texto {
     margin: 0;
   }
-  .hacker{
-   display: none;
+  .hacker {
+    display: none;
   }
-  .introduction h1{
-    margin: 1rem ;
+  .introduction h1 {
+    margin: 1rem;
     font-size: 2rem;
   }
-  @keyframes type{
-    from{
+  @keyframes type {
+    from {
       width: 0;
     }
-    to{
-  width: 10em;
+    to {
+      width: 10em;
     }
   }
-  
- 
 }
 
-.hacker{
+.hacker {
   max-width: 600px;
   position: absolute;
   margin: 0 0 0 50rem;
-  
 }
-
-
-
 
 /* CSS */
 .btn-introduction {
   text-transform: uppercase;
-  margin: 2rem 0  0 1rem;
+  margin: 2rem 0 0 1rem;
   align-items: center;
-  background-image: linear-gradient(144deg, #4731ec 30%,#67dd0a );
+  background-image: linear-gradient(144deg, #4731ec 30%, #67dd0a);
   border: 0;
   border-radius: 8px;
   box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
   box-sizing: border-box;
-  color: #4731ec  ;
+  color: #4731ec;
   display: flex;
   font-family: Phantomsans, sans-serif;
   font-size: 20px;
@@ -158,16 +151,19 @@ width: 22em;
     font-size: 24px;
     min-width: 196px;
   }
- 
 }
 
-section .sobre-mim{
+section .sobre-mim {
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 0 auto;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
-.sobre-mim{
+.sobre-mim {
   max-width: 40ch;
   font-size: 1.5rem;
   color: #4731ec;
@@ -175,24 +171,8 @@ section .sobre-mim{
   text-align: center;
 }
 
-@media (max-width:600px){
-  .sobre-mim{
+@media (max-width: 600px) {
+  .sobre-mim {
     font-size: 1rem;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
